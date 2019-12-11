@@ -1,5 +1,6 @@
 Feature: Validate demo automation
 @Reg
+//launchuing url
 Scenario: Register page
 Given launch the url
 When click on skip signin button
