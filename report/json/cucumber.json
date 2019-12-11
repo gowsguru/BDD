@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Register page",
+        "description": "",
+        "id": "validate-demo-automation;register-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29644931157,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch the url",
+            "match": {
+              "location": "java_class.launch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11084695164,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on skip signin button",
+            "match": {
+              "location": "java_class.skipsingin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "enter first name as \u003cgowthami\u003e and last name as \u003cguru\u003e",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validate demo automation",
+    "description": "",
+    "id": "validate-demo-automation",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
